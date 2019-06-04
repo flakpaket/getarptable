@@ -10,6 +10,7 @@ There are a few issues that should be addressed.  Most of them have to do with l
 
 This is all based on my memory, so you should probably take these ramblings with a grain of salt and read the code yourself if you plan to use it.
 ### General
+- [ ] Fix the URL in the ouiQuery function.  The third party API has changed the request URL, and I'm not sure about the return format.
 - [ ] Change the ouiQuery() function to download the Wireshark OUI MAC Database instead of using the current third party site.  (https://code.wireshark.org/review/gitweb?p=wireshark.git;a=blob_plain;f=manuf)
 - [ ] It needs refactored.  At a minimum, the walk() and extract() functions should be in main().  bulkwalk() probably doesn't need to be it's own function.
 - [ ] After #1 is done, the global variables wouldn't be necessary. 
