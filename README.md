@@ -8,7 +8,7 @@ The list of MACs and manufactures could be compaired to the various inventory ap
 ## To Do
 There are a few issues that should be addressed.  Most of them have to do with learning Python as I wrote the tool, and genreally having no clue what I was doing.  (My Python isn't much better now, but I can definitely see that I've learned a bit more.)
 
-This is all based on my memory, so 
+This is all based on my memory, so you should probably take these ramblings with a grain of salt and read the code yourself if you plan to use it.
 ### General
 - [ ] Change the ouiQuery() function to download the Wireshark OUI MAC Database instead of using the current third party site.  (https://code.wireshark.org/review/gitweb?p=wireshark.git;a=blob_plain;f=manuf)
 - [ ] It needs refactored.  At a minimum, the walk() and extract() functions should be in main().  bulkwalk() probably doesn't need to be it's own function.
